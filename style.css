@@ -1,20 +1,18 @@
 /*font*/
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@400;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@400;900&family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@400;900&family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Grandstander:wght@300&family=Merriweather:wght@400;900&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
 /*html bodyr*/
 html {
   position: relative;
 }
 body {
-  padding-top: 100px;
-  background-color: #ffefdd;
+  padding-top: 70px;
+  background-color: white;
 }
 /*navbar*/
 .navbar {
-  background-color: #e28ea5;
-  font-family: Montserrat;
+  background-color: white;
+  font-family: poppins;
   width: 100%;
 }
 
@@ -37,12 +35,17 @@ body {
 }
 /*logo nav*/
 .logo {
-  width: 120px;
-  height: 110px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: left;
 }
+
+.carousel-inner {
+  width: 100vw;
+}
+
 /*search*/
 .form {
   flex-direction: row;
@@ -51,8 +54,8 @@ body {
 }
 
 .search-field {
-  width: 500px;
-  padding: 10px 35px 10px 15px;
+  width: 300px;
+  padding: 6px 35px 6px 15px;
   border: none;
   border-radius: 25px;
   outline: none;
@@ -63,23 +66,23 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  margin-left: -33px;
+  margin-left: -43px;
 }
 
 .search-button img {
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
   object-fit: cover;
-  margin-right: 45px;
+  margin-right: 10px;
 }
 .keranjang {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .search-container {
   display: flex;
-  margin-top: 65px;
+  margin-top: 40px;
   justify-content: right;
 }
 
@@ -92,18 +95,113 @@ body {
   background-color: #fff7f3;
 }
 
+/*details tas*/
+/*left*/
+/*panah*/
+.panah img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 80px;
+  justify-content: left;
+}
+/*detail tas*/
+.tas img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 210px;
+  justify-content: left;
+}
+/*right*/
+.container-right {
+  font-family: poppins;
+}
+.container-right h3 {
+  color: red;
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+  font-family: roboto;
+  margin-right: 50px;
+}
+.star {
+  display: inline;
+}
+.container-right h2 {
+  font-weight: bold;
+}
+.container-right h5 {
+  color: #cc9656;
+  margin-top: 20px;
+}
+.container-right p {
+  color: #979797;
+}
+.container-right h6 {
+  width: 400px;
+  margin-bottom: 70px;
+}
+
+/*sort from*/
+.container-sort {
+  display: flex;
+  margin-top: 50px;
+  justify-content: right;
+  margin-right: 55px;
+  font-family: poppins;
+}
+.container-sort img {
+  width: 20px;
+  height: 20px;
+}
+
+/*card card new dan sale*/
+.container-card {
+  font-family: poppins;
+}
+
+.container-card img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+/*card article*/
+
+.allcard {
+  float: center;
+}
+.card p {
+  margin-top: -10px;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.row .card:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  transform: scale(1.02);
+  background-color: #f0efeb;
+}
 /*footer*/
 footer {
-  margin-top: 50px;
+  background-color: #fff5e9;
+  font-family: poppins;
 }
 .footer-body {
   display: flex;
   align-items: center;
 }
+.socmed img {
+  height: 25px;
+  width: 25px;
+}
 
 .socmed > ul {
   list-style-type: none;
   margin-right: 150px;
+  margin-top: 50px;
 }
 .socmed > ul > li {
   padding: 5px 0;
@@ -111,12 +209,12 @@ footer {
 
 .alamat > p {
   width: 400px;
+  margin-top: 50px;
 }
 
 .foot {
   display: flex;
   justify-content: right;
-  margin-right: 20px;
-  padding: 10px 0;
+  padding: 20px 0;
   color: #ff9d2b;
 }
