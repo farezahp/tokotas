@@ -142,7 +142,11 @@ body {
 }
 .container-right h6 {
   width: 400px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+}
+.container-right button {
+  display: inline;
+  margin-left: 50px;
 }
 
 /*sort from*/

@@ -1,0 +1,41 @@
+@import url("navbar.css");
+/*sort from*/
+.container-sort {
+  display: flex;
+  margin-top: 50px;
+  justify-content: right;
+  margin-right: 55px;
+  font-family: poppins;
+}
+.container-sort img {
+  width: 20px;
+  height: 20px;
+}
+
+/*card card new dan sale*/
+.container-card {
+  font-family: poppins;
+}
+
+.container-card img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+/*card article*/
+
+.allcard {
+  float: center;
+}
+.card p {
+  margin-top: -10px;
+  margin-bottom: 1px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.row .card:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  transform: scale(1.02);
+  background-color: #f0efeb;
+}
+@import url("footer.css");

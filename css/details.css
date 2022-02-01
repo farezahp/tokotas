@@ -1,0 +1,55 @@
+@import url("navbar.css");
+/*details tas*/
+/*left*/
+/*panah*/
+.panah img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 80px;
+  justify-content: left;
+}
+/*detail tas*/
+.tas img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 210px;
+  justify-content: left;
+}
+/*right*/
+.container-right {
+  font-family: poppins;
+}
+.container-right h3 {
+  color: red;
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+  font-family: roboto;
+  margin-right: 50px;
+}
+.star {
+  display: inline;
+}
+.container-right h2 {
+  font-weight: bold;
+}
+.container-right h5 {
+  color: #cc9656;
+  margin-top: 20px;
+}
+.container-right p {
+  color: #979797;
+}
+.container-right h6 {
+  width: 400px;
+  margin-bottom: 50px;
+}
+.container-right button {
+  display: inline;
+  margin-left: 50px;
+}
+@import url("footer.css");
